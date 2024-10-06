@@ -1,0 +1,9 @@
+server:
+    port: 9292
+
+---
+
+spring:
+    data:
+        mongodb:
+            uri: mongodb://localhost:27017/product_command_service_axon_db
